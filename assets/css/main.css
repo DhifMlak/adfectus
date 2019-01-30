@@ -1,0 +1,153 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+ @font-face{
+  font-family:"Bebas Neue W03 Regular";
+  src:url("fonts/1444651/69efc83f-ff1e-4b84-aaac-c35e238e33ca.eot?#iefix");
+  src:url("fonts/1444651/69efc83f-ff1e-4b84-aaac-c35e238e33ca.eot?#iefix") format("eot"),url("Fonts/1444651/11e21f91-5c9d-4170-908d-d6afa916d2fc.woff2") format("woff2"),url("Fonts/1444651/b336f9f4-ee3c-4257-a4af-d5d2e3671b86.woff") format("woff"),url("Fonts/1444651/213f5fa9-0ccb-4f43-baf8-99d81c93b2ae.ttf") format("truetype");
+}
+html * {
+  font-family: "Bebas Neue W03 Regular" !important;
+}
+.logo{
+    
+    max-width:142px ;
+    max-height: 63px ;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.adfButton {
+  padding: 0.1rem 0.8rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.6rem;
+}
+.adfRed{
+  background-color: #BC2132;
+}
+.adfOrange{
+  background-color: #F15A24;
+}
+.adfYellow{
+  background-color:  #FBB03B;
+}
+.adfGreen{
+  background-color:  #39B54A;
+}
+.adfBlue{
+  background-color:  #29ABE2;
+}
+.adfCaption{
+  font-size: 1.2rem;
+  color: black;
+  line-height: 1.2;
+}
+
+
+a.nav-link{
+  font-size: 2rem;
+}
+a.nav-link {
+	position: relative;
+	color: #9e9e9e;
+	text-decoration: none;
+}
+
+a.nav-link:hover {
+	color: #192036;
+}
+
+a.nav-link::before {
+	content: "";
+	position: absolute;
+	width: 84%;
+	height: 2px;
+	bottom: 10px;
+	left: 4;
+	background-color: #fff;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+a.nav-link:hover::before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+.carousel-caption {
+  bottom: 30%;
+}
+@media (min-width: 576px) { 
+  .adfTitle {
+    font-size: 4.3rem;
+  }
+  .carousel-caption {
+    bottom: 30% ;
+  }
+  .adfCaption{
+    font-size: 1.2rem;
+    color: black;
+    line-height: 1.2;
+  }
+
+ }
+
+@media (min-width: 768px) {  
+  .adfTitle {
+  font-size: 5.6rem;
+} 
+.adfCaption{
+  font-size: 2rem;
+  color: black;
+  line-height: 1.2;
+}
+.carousel-caption {
+  bottom: 25% ;
+}
+}
+
+@media (min-width: 992px) { 
+  .adfTitle {
+    font-size: 7rem;
+  }
+  .carousel-caption {
+    bottom: 30%;
+  }
+ }
+
+@media (min-width: 1200px) {  .adfTitle {
+  font-size: 7rem;
+}
+.carousel-caption {
+  bottom: 30% ;
+}
+}
+
+.carousel-indicators li {
+  margin:auto 6px;
+  opacity: 1;
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.carousel-indicators .active {
+  opacity: 1;
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  background-color: #000;
+
+}
