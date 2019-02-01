@@ -16,6 +16,9 @@ html * {
     max-width:142px ;
     max-height: 63px ;
 }
+.carousel-indicators{
+  bottom:80px;
+}
 .carousel-item {
   height: 100vh;
   min-height: 300px;
@@ -30,6 +33,11 @@ html * {
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.6rem;
+}
+.mgNav{
+  margin-left: 50px;
+  margin-right: 50x;
+  margin-top: 40px;
 }
 .adfRed{
   background-color: #BC2132;
@@ -87,20 +95,21 @@ a.nav-link:hover::before {
 	transform: scaleX(1);
 }
 .carousel-caption {
-  bottom: 30%;
+  bottom: 20%;
 }
 @media (min-width: 576px) { 
   .adfTitle {
     font-size: 4.3rem;
   }
   .carousel-caption {
-    bottom: 30% ;
+    bottom: 35% ;
   }
   .adfCaption{
     font-size: 1.2rem;
     color: black;
     line-height: 1.2;
   }
+
 
  }
 
@@ -114,8 +123,13 @@ a.nav-link:hover::before {
   line-height: 1.2;
 }
 .carousel-caption {
-  bottom: 25% ;
+  bottom: 16% ;
 }
+
+
+
+
+
 }
 
 @media (min-width: 992px) { 
@@ -123,15 +137,23 @@ a.nav-link:hover::before {
     font-size: 7rem;
   }
   .carousel-caption {
-    bottom: 30%;
+    bottom: 20%;
   }
+  .carousel-indicators{
+    bottom:70px;
+  }
+
+
  }
 
 @media (min-width: 1200px) {  .adfTitle {
   font-size: 7rem;
 }
 .carousel-caption {
-  bottom: 30% ;
+  bottom: 20% ;
+}
+.carousel-indicators{
+  bottom:70px;
 }
 }
 
